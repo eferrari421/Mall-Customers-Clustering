@@ -1,29 +1,14 @@
 # Mall Customers Clustering: Project Overview 
-- Created a tool that predicts whether or not a customer will churn from Telco
-- Engineered two new features, volume and ratio, from the given features
-- Optimized a Random Forest regressor using GridSearchCV to reach the model
+- Grouped mall customers into cluster using three different combinations of customer metrics
+- Created visualisations of the created clusters
 
-# Data Cleaning and Feature Engineering
-- Replaced empty values in TotalCharges column with a null value
-- Dropped all rows with null values
-- Converted all columns with integer values into float values
-- Replaced all values with 'No internet service' or 'No phone service' into 'No' for simplicity
-- Dropped id column
-- Added a new column, TC_to_ten_ratio, which divided a customer's total charges by their tenure
-- Made new dummy columns for age, divided into five different age groups
-- Added a total_services column, which summed all the different services a customer had with Telco
-- Label encoded categorical columns with only two distinct values
-- Created dummy variables for categorical columns with more than two distinct values
-- Converted churn column from yes/no to 1/0
-- Scaled the numerical columns
-
-# Data Visualisation
+# Exploratory Data Analysis and Data Visualisation
+- Dropped all rows with null values and all duplicates
+- Changed column names for simplicity
 
 # Model Building
-#### I tried 6 different models and compared them based on F1 score ####
-- Logistic Regression: F1 = 0.59
-- Naive Bayes: F1 = 0.64
-- K Nearest Neighbors: F1 = 0.55
-- Decision Tree: F1 = 0.47
-- Random Forest: F1 = 0.58
-- Support Vector Machine: F1 = 0.57
+### I created three different versions of the customers, using variations of the given metrics ###
+#### Looked at scree plot to determine the optimal number of clusters ####
+- Age and spending score: 4 clusters (low spending score, young and high spending score, young and medium spending score, old and medium spending score)
+- Annual income and spending score: 5 clusters(low income and low spending score, medium income and medium spending score, high income and high spending score, low income and high spending score, high income and low spending score)
+- Age, annual income, and spending score: 6 clusters(old and low income and low spending score, )
