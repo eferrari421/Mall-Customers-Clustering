@@ -1,5 +1,5 @@
 # Mall Customers Clustering: Project Overview 
-- Grouped mall customers into cluster using three different combinations of customer metrics
+- Grouped mall customers into clusters using three different combinations of customer metrics
 - Created visualisations of the created clusters
 
 # Exploratory Data Analysis and Data Visualisation
