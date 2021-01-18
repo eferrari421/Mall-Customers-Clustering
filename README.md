@@ -5,6 +5,7 @@
 # Exploratory Data Analysis and Data Visualisation
 - Dropped all rows with null values and all duplicates
 - Changed column names for simplicity
+
 ![](mall_images/download-4.png)
 ![](mall_images/download-5.png)
 ![](mall_images/download-6.png)
