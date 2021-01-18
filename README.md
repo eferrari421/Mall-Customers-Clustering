@@ -22,7 +22,7 @@
 
 - Annual income and spending score: 5 clusters(low income and low spending score, medium income and medium spending score, high income and high spending score, low income and high spending score, high income and low spending score)
 
-![](mall_images/download-.png)
+![](mall_images/download-3.png)
 
 - Age, annual income, and spending score: 6 clusters(old/low income/low spending score, medium age/low spending score/high income, old/medium spending score/medium income, medium age/medium spending score/medium income, young/high spending score/low income, young/high spending score/high income)
 
